@@ -1,0 +1,320 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+#particles-js{
+  width: 100vw;
+  height: 100vh;
+  background-color: #b61924;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+.tamanho {
+  width: 50px;
+}
+
+.body {
+  background-image: ;
+  background-repeat: none;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+/*cor original do header #1d1f29*/
+/*put header with background-image that div infpessoal have*/
+.header {
+  
+}
+header {
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  /*position: sticky;*/
+  top: 0;
+  
+}
+
+.logo_jegan {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 8px;
+}
+
+.nav {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+  margin-right: 10%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+/*this division ocupe all page*/
+/*align textoinf with foto_minha */
+.infpessoal {
+  
+  
+  display: flex;
+  flex-direction: line;
+  align-items: center;
+  justify-content: center;
+  
+  height: 100vh;
+  width: 100vw;
+}
+
+.nome {
+  font-size: 3vw;
+  color: aliceblue;
+}
+
+.textoinf {
+  color: white;
+  padding-right: 10%;
+}
+
+
+.descricao {
+  color: aliceblue;
+  justify-content: center;
+}
+
+.divisao {
+  width: 100vw;
+  border: #000000 solid 1px;
+  background-color: rgb(0, 0, 0);
+}
+/*responsive to resution small*/
+@media screen and (max-width: 600px) {
+  .nome {
+    font-size: 3vw;
+  }
+
+  .textoinf {
+    font-size: 15px;
+  }
+
+  .descricao {
+    font-size: 15px;
+  }
+}
+
+/*responsive to resution intermedia*/
+@media screen and (max-width: 900px) {
+  .nome {
+    font-size: 3vw;
+  }
+
+  .textoinf {
+    font-size: 15px;
+  }
+
+  .descricao {
+    font-size: 15px;
+  }
+}
+
+/*responsive to resution large*/
+@media screen and (max-width: 1200px) {
+  .nome {
+    font-size: 3vw;
+  }
+
+  .textoinf {
+    font-size: 15px;
+  }
+
+  .descricao {
+    font-size: 15px;
+  }
+}
+
+/*responsive to resution xlarge and "foto_minha" also responsive*/
+
+@media screen and (max-width: 1600px) {
+  .nome {
+    font-size: 3vw;
+  }
+
+  .textoinf {
+    font-size: 15px;
+  }
+
+  .descricao {
+    font-size: 15px;
+  }
+}
+
+/*addapt "foto_minha" to resution*/
+@media screen and (max-width: 1600px) {
+  .foto_minha {
+    width: 40vw;
+    height: 30vh;
+  }
+}
+
+/* responsive to resution xlarge*/
+@media screen and (max-width: 2500px) {
+  .nome {
+    font-size: 3vw;
+  }
+
+  .textoinf {
+    font-size: 22px;
+  }
+
+  .descricao {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 2500px) {
+  .foto_minha {
+    width: 40%;
+    height: 30vh;
+  }
+}
+
+.botao {
+  background-color: #0c0574;
+  color: white;
+  border: none;
+  padding: 15px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+/*addapt "foto_minha" to resution*/
+/* put foto_minha with width 60vw and height 30vh*/
+@media screen and (max-width: 1900px) {
+  .foto_minha {
+    width: 30%;
+    height: 30vh;
+  }
+}
+
+/* responsive in foto_minha in intervalo 300px to 600px and dont go to the footer*/
+@media screen and (max-width: 1200px) {
+  .foto_minha {
+    margin-right: 5%;
+  }
+}
+
+/* responsive in foto_minha in intervalo 1200px to 1500px and ocuopar 10% da div*/
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+  .foto_minha {
+    width: 10%;
+  }
+  
+}
+
+/*@media only screen and (max-width: 640px) {
+  .foto_minha {
+    background-color: lightblue;
+
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .foto_minha {
+    background-color: lightblue;
+
+    width: 35%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .foto_minha {
+    background-color: lightblue;
+
+    width: 35%;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .foto_minha {
+    background-color: lightblue;
+
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 1536px) {
+  .foto_minha {
+    background-color: lightblue;
+
+    width: 85%;
+  }
+}
+@media only screen and (max-height: 640px) {
+  .foto_minha {
+    background-color: lightblue;
+    height: 50px;
+  }
+}
+@media only screen and (max-height: 768px) {
+  .foto_minha {
+    background-color: lightblue;
+    height: 50px;
+  }
+}
+@media only screen and (max-height: 1024px) {
+  .foto_minha {
+    background-color: lightblue;
+    height: 50px;
+  }
+}
+@media only screen and (max-height: 1280px) {
+  .foto_minha {
+    background-color: lightblue;
+    height: 50%;
+  }
+}
+@media only screen and (max-height: 1536px) {
+  .foto_minha {
+    background-color: lightblue;
+    height: 50%;
+  }
+}
+*/
+
+.fega {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  justify-content: space-evenly;
+}
+
+.foto_fega {
+}
+
+.footer {
+  height: 100px;
+
+  width: 100%;
+  background: rgb(27, 27, 27);
+
+  bottom: 0vh;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.logo_footer {
+  margin-bottom: 0vh;
+}

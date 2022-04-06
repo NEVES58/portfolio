@@ -1,0 +1,13 @@
+.body {
+  background-color: #273f41;
+}
+
+.logodoinsta {
+  color: aliceblue;
+}
+/*put icon with 100px*/
+.fa-instagram-square {
+  color: aqua;
+  font-size: 100px;
+}
+
