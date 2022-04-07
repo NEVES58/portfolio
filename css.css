@@ -74,9 +74,7 @@ header {
   width: 100vw;
 }
 
-.nome {
-  font-size: 3vw;
-  color: aliceblue;
+.nome {color: rgb(133, 13, 13);
 }
 
 .textoinf {
@@ -202,8 +200,8 @@ header {
 /* put foto_minha with width 60vw and height 30vh*/
 @media screen and (max-width: 1900px) {
   .foto_minha {
-    width: 30%;
-    height: 30vh;
+    width: 50%;
+    height: 50vh;
   }
 }
 
@@ -217,7 +215,7 @@ header {
 /* responsive in foto_minha in intervalo 1200px to 1500px and ocuopar 10% da div*/
 @media screen and (min-width: 1200px) and (max-width: 1500px) {
   .foto_minha {
-    width: 10%;
+    width: 50%;
   }
   
 }
@@ -291,11 +289,16 @@ header {
 */
 
 .fega {
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
+  
   padding-top: 10px;
   justify-content: space-evenly;
+}
+.fegasimg{
+  display: flex;
+  flex-direction: column;
 }
 
 .foto_fega {
@@ -305,7 +308,7 @@ header {
   height: 100px;
 
   width: 100%;
-  background: rgb(27, 27, 27);
+  background: rgb(0, 0, 0);
 
   bottom: 0vh;
   display: flex;
