@@ -8,7 +8,7 @@ a {
 }
 
 .body {
-  background-image: ;
+  
   background-repeat: none;
   background-size: cover;
   height: 100vh;
@@ -67,19 +67,15 @@ header {
 }
 
 
-}
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
-}
 
-.nome {color: rgb(133, 13, 13);
+.nome{
+  color: white;
 }
 
 .textoinf {
   color: white;
   padding-right: 10%;
+  padding-left: 4%;
 }
 
 
@@ -196,6 +192,9 @@ header {
   cursor: pointer;
   border-radius: 10px;
 }
+.fegasimg{
+  
+}
 /*addapt "foto_minha" to resution*/
 /* put foto_minha with width 60vw and height 30vh*/
 @media screen and (max-width: 1900px) {
@@ -292,6 +291,7 @@ header {
   color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
+  flex: ;
   
   padding-top: 10px;
   justify-content: space-evenly;
@@ -299,8 +299,11 @@ header {
 .fegasimg{
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
+.inffega
+{font-size: 150%;}
 .foto_fega {
 }
 
