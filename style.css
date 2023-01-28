@@ -22,6 +22,11 @@ header {
 header img {
   padding: 1%;
 }
+@media only screen and (max-width: 680px) {
+  header .nav {
+    display: none;
+  }
+}
 
 .logo_jegan {
   display: flex;
