@@ -36,6 +36,13 @@ header img {
   gap: 50px;
   margin-right: 10%;
 }
+.nav a:hover {
+  color: blue;
+  text-decoration: underline;
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
+  transform: scale(130%);
+}
 
 .main {
   display: flex;
