@@ -1,0 +1,175 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.body {
+  background-repeat: none;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+
+header {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+}
+
+.logo_jegan {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 8px;
+}
+
+.nav {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+  margin-right: 10%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.pageinicial {
+  background-image: url("https://i0.wp.com/windowscustomization.com/wp-content/uploads/2018/10/particles-web-2.gif?fit=750%2C365&quality=80&strip=all&ssl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: line;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  text-align: center;
+}
+
+.textofpageinicial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 80px;
+}
+
+.textoinfithtitle {
+  flex-direction: column;
+}
+
+.nome {
+  color: white;
+}
+
+.infpessoal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 70vh;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.textoinf {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin-left: 5%;
+}
+
+.curriculo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 50vh;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.descricao {
+  color: aliceblue;
+  justify-content: center;
+}
+
+.divisao {
+  width: 100vw;
+  border: #000000 solid 1px;
+  background-color: rgb(0, 0, 0);
+}
+
+.skills {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  padding: 60px;
+  align-items: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(33, 3, 141);
+  font-size: 200px;
+  align-tracks: center;
+}
+
+.botao {
+  background-color: #0c0574;
+  color: white;
+  border: none;
+  padding: 15px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.fega {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  justify-content: space-evenly;
+}
+
+.fegasimg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inffega {
+  font-size: 150%;
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  bottom: 0vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tamanho {
+  width: 50px;
+}
+
+.logo_footer {
+  margin-bottom: 0vh;
+}/*# sourceMappingURL=style.css.map */

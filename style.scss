@@ -1,4 +1,4 @@
-a{
+a {
   text-decoration: none;
   color: white;
 }
@@ -50,7 +50,7 @@ header {
   justify-content: center;
   height: 100vh;
   width: 100vw;
-  color:white;
+  color: white;
   text-align: center;
 }
 
@@ -61,11 +61,11 @@ header {
   font-size: 80px;
 }
 
-.textoinfithtitle{
-flex-direction: column;
+.textoinfithtitle {
+  flex-direction: column;
 }
 
-.nome{
+.nome {
   color: white;
 }
 
@@ -111,12 +111,14 @@ flex-direction: column;
 
 .skills {
   background-color: #000000;
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   padding: 60px;
   align-items: center;
 }
 
-table, th , td {
+table,
+th,
+td {
   border: 1px solid rgb(33, 3, 141);
   font-size: 200px;
   align-tracks: center;
@@ -145,13 +147,13 @@ table, th , td {
   justify-content: space-evenly;
 }
 
-.fegasimg{
+.fegasimg {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.inffega{
+.inffega {
   font-size: 150%;
 }
 
