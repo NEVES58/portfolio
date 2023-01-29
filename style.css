@@ -8,6 +8,7 @@ a {
   background-size: cover;
   height: 100vh;
   margin: 0;
+  overflow-x: hidden;
 }
 
 header {
@@ -43,9 +44,6 @@ header img {
 }
 .nav a:hover {
   color: blue;
-  text-decoration: underline;
-  -webkit-text-decoration-color: white;
-          text-decoration-color: white;
   transform: scale(130%);
 }
 
@@ -78,8 +76,10 @@ header img {
   font-size: 80px;
 }
 
-.textoinfithtitle {
+.textoinfwithtitle {
+  display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .nome {
@@ -88,19 +88,35 @@ header img {
 
 .infpessoal {
   display: flex;
-  align-items: center;
   justify-content: center;
-  width: 100vw;
+  align-items: center;
   height: 70vh;
   background-color: #ffffff;
   color: rgb(0, 0, 0);
   text-align: center;
 }
-
-.textoinf {
+.infpessoal .textoinf {
   color: rgb(0, 0, 0);
   font-size: 20px;
   margin-left: 5%;
+}
+.infpessoal img {
+  width: 75%;
+  height: 75%;
+}
+@media only screen and (max-width: 680px) {
+  .infpessoal {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .infpessoal .textoinf {
+    width: 70%;
+  }
+  .infpessoal img {
+    width: 50%;
+    height: 50%;
+  }
 }
 
 .curriculo {
