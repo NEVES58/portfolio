@@ -18,7 +18,9 @@ header {
   align-items: center;
   position: -webkit-sticky;
   position: sticky;
+  width: 100%;
   top: 0;
+  margin-right: 0px;
 }
 header img {
   padding: 1%;
