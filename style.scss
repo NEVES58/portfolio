@@ -149,14 +149,18 @@ header {
   align-items: center;
 }
 
-table,
 th,
 td {
-  border: 1px solid rgb(33, 3, 141);
+  border: 1px solid rgb(15, 35, 220);
   font-size: 200px;
   align-tracks: center;
 }
-
+td {
+  width: 15%;
+}
+td:hover {
+  border: 1px solid red;
+}
 .botao {
   background-color: #0c0574;
   color: white;
