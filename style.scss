@@ -2,7 +2,9 @@ a {
   text-decoration: none;
   color: white;
 }
-
+i {
+  color: rgb(167, 148, 8);
+}
 .body {
   background-repeat: none;
   background-size: cover;
@@ -154,15 +156,25 @@ header {
 th,
 td {
   border: 1px solid rgb(15, 35, 220);
-  font-size: 200px;
-  align-tracks: center;
+  font-size: 20px;
 }
 td {
   width: 15%;
 }
+
 td:hover {
   border: 1px solid red;
   background-color: white;
+}
+.interiordacelula {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+  div:nth-of-type(2) {
+    padding-top: 20%;
+  }
 }
 .botao {
   background-color: #0c0574;
