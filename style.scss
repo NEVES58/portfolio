@@ -160,6 +160,7 @@ td {
 }
 td:hover {
   border: 1px solid red;
+  background-color: white;
 }
 .botao {
   background-color: #0c0574;
@@ -194,13 +195,15 @@ td:hover {
   font-size: 150%;
 }
 
-.footer {
+footer {
   height: 100px;
   width: 100%;
-  background: rgb(0, 0, 0);
+  padding-top: 10px;
+  background: rgb(255, 255, 255);
   bottom: 0vh;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 }
 
 .tamanho {
