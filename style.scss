@@ -149,8 +149,13 @@ header {
 .skills {
   background-color: #000000;
   color: rgb(255, 255, 255);
-  padding: 60px;
-  align-items: center;
+  padding: 40px;
+  text-align: center;
+  #cabecalhoskills {
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 800;
+  }
 }
 
 th,
@@ -159,12 +164,10 @@ td {
   font-size: 20px;
 }
 td {
-  width: 15%;
+  width: 10%;
 }
 
 td:hover {
-  border: 1px solid red;
-  background-color: white;
 }
 .interiordacelula {
   display: flex;
@@ -174,6 +177,9 @@ td:hover {
   padding: 5%;
   div:nth-of-type(2) {
     padding-top: 20%;
+  }
+  .descricao {
+    text-align: center;
   }
 }
 .botao {
