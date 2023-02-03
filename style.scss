@@ -161,11 +161,21 @@ header {
 .tabela1 {
   display: flex;
   gap: 5%;
+  @media only screen and (max-width: 960px) {
+    flex-direction: column;
+    align-items: center;
+
+    .interiordacelula {
+      margin-bottom: 3%;
+      width: 90%;
+      border-radius: 99px;
+    }
+  }
 }
 .interiordacelula {
   align-items: center;
   padding: 5%;
-  border: 1px solid blue;
+  border: 1px solid rgb(255, 255, 255);
   width: 20%;
 
   div:nth-of-type(2) {
@@ -173,6 +183,7 @@ header {
   }
   .descricao {
     text-align: center;
+    font-size: large;
   }
 }
 .botao {
