@@ -1,3 +1,6 @@
+$colormain1: black;
+$colormain2: white;
+$colorsecound: wheat;
 a {
   text-decoration: none;
   color: white;
@@ -14,7 +17,7 @@ i {
 }
 
 header {
-  background-color: #000000;
+  background-color: $colormain1;
   display: flex;
   justify-content: space-between;
   align-items: center;
