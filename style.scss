@@ -148,13 +148,24 @@ header {
 
 .skills {
   background-color: #000000;
-  color: rgb(255, 255, 255);
+  color: wheat;
   padding: 40px;
   text-align: center;
   #cabecalhoskills {
     margin-bottom: 40px;
     font-size: 30px;
     font-weight: 800;
+  }
+  button {
+    margin-top: 5%;
+    width: 30%;
+    border-radius: 10px;
+    background-color: wheat;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1rem;
+    @media only screen and (max-width: 800px) {
+      width: 75%;
+    }
   }
 }
 
