@@ -168,6 +168,7 @@ header {
     .interiordacelula {
       margin-bottom: 3%;
       width: 90%;
+      height: 150px;
       border-radius: 99px;
     }
   }
@@ -177,7 +178,7 @@ header {
   padding: 5%;
   border: 1px solid rgb(255, 255, 255);
   width: 20%;
-
+  border-radius: 50px;
   div:nth-of-type(2) {
     padding-top: 20%;
   }
