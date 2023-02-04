@@ -179,14 +179,20 @@ header img {
 }
 @media only screen and (max-width: 960px) {
   .tabela1 {
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .tabela1 .interiordacelula {
     margin-bottom: 3%;
     width: 90%;
     height: 150px;
     border-radius: 99px;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .tabela1 {
+    display: flex;
+    flex-direction: column;
   }
 }
 

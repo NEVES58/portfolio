@@ -176,15 +176,18 @@ header {
   display: flex;
   gap: 5%;
   @media only screen and (max-width: 960px) {
-    flex-direction: column;
-    align-items: center;
-
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     .interiordacelula {
       margin-bottom: 3%;
       width: 90%;
       height: 150px;
       border-radius: 99px;
     }
+  }
+  @media only screen and (max-width: 680px) {
+    display: flex;
+    flex-direction: column;
   }
 }
 .interiordacelula {
