@@ -115,6 +115,7 @@ header {
   }
   @media only screen and (max-width: 680px) {
     flex-direction: column;
+    padding-bottom: 10%;
   }
   //sd
   @media only screen and (max-width: 960px) {
@@ -164,6 +165,7 @@ header {
   button {
     margin-top: 5%;
     width: 30%;
+    height: 50px;
     border-radius: 10px;
     background-color: wheat;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
