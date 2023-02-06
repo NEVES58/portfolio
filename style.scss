@@ -95,21 +95,23 @@ header {
 
 .infpessoal {
   display: flex;
-  justify-content: center;
+
   align-items: center;
 
   height: 70vh;
   background-color: #ffffff;
   color: rgb(0, 0, 0);
   text-align: center;
+  padding-right: 10%;
   .textoinf {
     color: rgb(0, 0, 0);
     font-size: 20px;
-    margin-left: 5%;
+
+    width: 50%;
   }
   img {
-    width: 75%;
-    height: 75%;
+    border-radius: 999px;
+    width: 30%;
   }
   @media only screen and (max-width: 680px) {
     flex-direction: column;
